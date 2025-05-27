@@ -11,19 +11,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, device/nec/lavietabe10fhd2/device.mk)
 
-# Inherit from a05bd device
-$(call inherit-product, device/sts/a05bd/device.mk)
+PRODUCT_DEVICE := LAVIETabE10FHD2
+PRODUCT_NAME := twrp_lavietabe10fhd2
+PRODUCT_BRAND := NEC
+PRODUCT_MODEL := LAVIE Tab E 10FHD2
+PRODUCT_MANUFACTURER := nec
 
-PRODUCT_DEVICE := a05bd
-PRODUCT_NAME := omni_a05bd
-PRODUCT_BRAND := benesse
-PRODUCT_MODEL := a05bd
-PRODUCT_MANUFACTURER := sts
-
-PRODUCT_GMS_CLIENTID_BASE := android-sts
+PRODUCT_GMS_CLIENTID_BASE := android-nec
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="TAB-A05-BD-user 9 01.00.000 01.00.000 release-keys"
+    PRIVATE_BUILD_DESC="full_achilles6_row_wifi-user 10 QP1A.190711.020 LAVIETabE1 release-keys"
 
-BUILD_FINGERPRINT := benesse/TAB-A05-BD/TAB-A05-BD:9/01.00.000/01.00.000:user/release-keys
+BUILD_FINGERPRINT := NEC/LAVIETabE10FHD2/LAVIETabE10FHD2:10/QP1A.190711.020/LAVIETabE10FHD2_USR_S200536_2205181109_V9.56_BMAIN_NEC:user/release-keys
