@@ -1,0 +1,14 @@
+ro.boot.avb_version=1.1
+ro.boot.vbmeta.avb_version=1.1
+ro.boot.vbmeta.device_state=unlocked
+ro.boot.vbmeta.digest=e034bfe34ca54edf191a9e7ef3d27a1b2a4d6db35d96485bccbd0ef3a8edbd21
+ro.boot.vbmeta.hash_alg=sha256
+ro.boot.vbmeta.size=9728
+ro.boot.verifiedbootstate=orange
+ro.boot.veritymode=disabled
+ro.boot.hardware=mt8768
+ro.board.platform=mt6765
+ro.mount.fs=EXT4
+ro.debuggable=1
+ro.hardware.egl=mtk
+ro.property_service.version=2
