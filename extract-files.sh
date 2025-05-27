@@ -8,8 +8,8 @@
 
 set -e
 
-DEVICE=szj203
-VENDOR=kyocera
+DEVICE=lavietabe10fhd2
+VENDOR=nec
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
