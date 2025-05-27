@@ -11,13 +11,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, device/nec/lavietabe10fhd2/device.mk)
 
-PRODUCT_DEVICE := LAVIETabE10FHD2
+PRODUCT_RELEASE_NAME := lavietabe10fhd2
+PRODUCT_DEVICE := lavietabe10fhd2
 PRODUCT_NAME := twrp_lavietabe10fhd2
 PRODUCT_BRAND := NEC
 PRODUCT_MODEL := LAVIE Tab E 10FHD2
 PRODUCT_MANUFACTURER := nec
+
+PRODUCT_DEFAULT_LANGUAGE := ja
+PRODUCT_DEFAULT_REGION   := JP
 
 PRODUCT_GMS_CLIENTID_BASE := android-nec
 
