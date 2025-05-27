@@ -1,0 +1,6 @@
+Build.BRAND=MTK
+ro.vendor.mediatek.platform=mt6765
+ro.vendor.build.security_patch=2022-05-05
+ro.vendor.mediatek.version.branch=alps-mp-q0.mp1
+ro.vendor.mediatek.version.release=alps-mp-q0.mp1-V9.56_lenovo.q0mp1.tb8788p1.64.bsp_P3]
+ro.vendor.mtk.bt_sap_enable=true
