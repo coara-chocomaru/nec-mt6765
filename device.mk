@@ -22,18 +22,18 @@ PRODUCT_PACKAGES += \
 PRODUCT_CHARACTERISTICS := tablet
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.build.system_root_image=true \
-    ro.product.board=rk30sdk \
-    ro.product.device=Zkai-study-Tab \
-    ro.product.manufacturer=GSL \
-    ro.product.model=ZMOOTH \
+    ro.build.system_root_image=false \
+    ro.product.board=achilles6_row_wifi \
+    ro.product.device=LAVIETabE10FHD2 \
+    ro.product.manufacturer=NEC \
+    ro.product.model=LAVIE Tab E 10FHD2 \
     ro.treble.enabled=true \
     ro.build.characteristics=tablet \
     persist.sys.usb.config=mtp,adb \
-    ro.boot.boot_devices=fe330000.sdhci \
     ro.target.product=tablet \
-    ro.build.version.security_patch=2019-12-05 \
-    ro.build.version.release=9
+    ro.build.version.security_patch=2022-05-05 \
+    ro.build.version.release=10 \
+    ro.boot.boot_devices=bootdevice,11230000.mmc
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
