@@ -123,12 +123,13 @@ RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TARGET_DISABLE_TRIPLE_BUFFERING := false
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 
-
 # VINTF
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/recovery/root/vendor/etc/vintf/manifest.xml
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
+
 
 # OS
 PLATFORM_SECURITY_PATCH := 2020-09-05
