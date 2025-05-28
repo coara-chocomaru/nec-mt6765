@@ -31,8 +31,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp,adb \
     ro.target.product=tablet \
     ro.build.version.security_patch=2022-05-05 \
-    ro.build.version.release=10 \
-    ro.boot.boot_devices=bootdevice,11230000.mmc
+    ro.build.version.release=10 
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
