@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_CHARACTERISTICS := tablet
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.postinstall.fstab.prefix=/system \
     ro.product.board=achilles6_row_wifi \
     ro.product.device=LAVIETabE10FHD2 \
     ro.product.manufacturer=NEC \
