@@ -14,6 +14,9 @@ PRODUCT_SHIPPING_API_LEVEL := 28
 
 # Health
 PRODUCT_PACKAGES += \
+    android.hardware.health@1.0-impl \
+    android.hardware.health@1.0-service \
+    android.hardware.health@1.0-impl.recovery \
     android.hardware.health@2.0-impl \
     android.hardware.health@2.0-impl.recovery \
     android.hardware.health@2.0-service
@@ -22,7 +25,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_CHARACTERISTICS := tablet
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.build.system_root_image=false \
     ro.product.board=achilles6_row_wifi \
     ro.product.device=LAVIETabE10FHD2 \
     ro.product.manufacturer=NEC \
