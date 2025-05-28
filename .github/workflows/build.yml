@@ -7,7 +7,7 @@ on:
 
 env:
   MANIFEST_URL: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni'
-  MANIFEST_BRANCH: 'twrp-9.0'
+  MANIFEST_BRANCH: 'twrp-10.0-deprecated'
   DEVICE_TREE_URL: 'https://github.com/coara-chocomaru/nec-mt6765'
   DEVICE_TREE_BRANCH: 'main'
   DEVICE_PATH: 'device/nec/lavietabe10fhd2'
