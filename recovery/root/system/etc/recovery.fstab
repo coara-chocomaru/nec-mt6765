@@ -5,7 +5,6 @@
 /data               ext4   /dev/block/platform/bootdevice/by-name/userdata    flags=encryptable=/dev/block/platform/bootdevice/by-name/metadata
 /cache              ext4   /dev/block/platform/bootdevice/by-name/cache       flags=display=cache
 /persistent         emmc   /dev/block/platform/bootdevice/by-name/frp         flags=display=frp;backup=1
-/mnt/vendor/persist ext4   /dev/block/platform/bootdevice/by-name/persist     flags=display=persist;backup=1
 /nvram              emmc   /dev/block/platform/bootdevice/by-name/nvram       flags=display=nvram;backup=1
 /proinfo            emmc   /dev/block/platform/bootdevice/by-name/proinfo     flags=display=proinfo;backup=1
 /bootloader         emmc   /dev/block/platform/bootdevice/by-name/lk          flags=display=bootloader;backup=1
