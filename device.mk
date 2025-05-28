@@ -6,7 +6,7 @@
 
 
 LOCAL_PATH := device/nec/lavietabe10fhd2
-
+PRODUCT_USE_DYNAMIC_PARTITIONS := false
 # API levels
 PRODUCT_TARGET_VNDK_VERSION := 29
 PRODUCT_SHIPPING_API_LEVEL := 28
@@ -17,6 +17,10 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
     android.hardware.health@2.0-impl.recovery \
     android.hardware.health@2.0-service
+
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.0-impl \
+    android.hardware.boot@1.0-service
 
 # Product characteristics
 PRODUCT_CHARACTERISTICS := tablet
