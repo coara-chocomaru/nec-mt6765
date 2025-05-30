@@ -34,7 +34,6 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.product.model=LAVIE Tab E 10FHD2 \
     ro.treble.enabled=true \
     ro.build.characteristics=tablet \
-    persist.sys.usb.config=mtp,adb \
     ro.target.product=tablet \
     ro.build.version.security_patch=2022-05-05 \
     ro.build.version.release=10 
