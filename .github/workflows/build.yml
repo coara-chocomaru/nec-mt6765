@@ -3,13 +3,13 @@ name: Recovery Build (Legacy)
 on:
   push:
     branches:
-      - main  # 実行するブランチを指定
+      - land  # 実行するブランチを指定
 
 env:
   MANIFEST_URL: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni'
   MANIFEST_BRANCH: 'twrp-10.0-deprecated'
   DEVICE_TREE_URL: 'https://github.com/coara-chocomaru/nec-mt6765'
-  DEVICE_TREE_BRANCH: 'main'
+  DEVICE_TREE_BRANCH: 'land'
   DEVICE_PATH: 'device/nec/lavietabe10fhd2'
   DEVICE_NAME: 'lavietabe10fhd2'
   MAKEFILE_NAME: 'twrp_lavietabe10fhd2'
