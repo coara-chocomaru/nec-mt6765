@@ -33,6 +33,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.product.manufacturer=NEC \
     ro.product.model=LAVIE Tab E 10FHD2 \
     ro.treble.enabled=true \
+    ro.build.system_root_image=true \
     ro.build.characteristics=tablet \
     ro.target.product=tablet \
     ro.build.version.security_patch=2022-05-05 \
