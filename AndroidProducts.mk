@@ -7,7 +7,6 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_lavietabe10fhd2.mk
-
 COMMON_LUNCH_CHOICES := \
     twrp_lavietabe10fhd2-user \
     twrp_lavietabe10fhd2-userdebug \
